@@ -14,6 +14,8 @@ main{
 a{
     text-decoration: none;
     color: white;
+    padding: 0.75em 1.5em;
+    display: block;
 }
 header{
     display: flex;
@@ -35,10 +37,7 @@ header nav ul{
     display: flex;
    
 }
-header nav ul li{
-    margin-left: 1em;
-    padding: 0.5em 1em;
-}
+
 header nav ul li:not(:last-child) {
    
     border-right: 1px solid white;
@@ -213,7 +212,7 @@ grid-area: title;
         transform: scale(1.05); 
     }
     .movie-info{
-        color: red;
+        color: yellow;
     }
     .movie-info h3{
         font-size: 1.5em
@@ -227,7 +226,7 @@ grid-area: title;
     }
     #footer{
         flex-direction: column;
-        color: red;
+        color: yellow;
     }
     #footer h2:hover,
     #footer p:hover{
@@ -235,8 +234,8 @@ grid-area: title;
         cursor: pointer;
     }
     .red-line{
-        border-bottom: 3px solid red;
+        border-bottom: 3px solid white;
         width: 250px;
-        box-shadow: 0px 1px 3px white;
+        box-shadow: 4px 4px 10px blue;
     }
 }
